@@ -22,5 +22,8 @@ install: ttygif
 	mkdir -p $(BINDIR)
 	cp ttygif $(BINDIR)/ttygif
 
+uninstall:
+	rm $(BINDIR)/ttygif
+
 clean:
 	rm -f *.o ttygif ttyrecord *~
